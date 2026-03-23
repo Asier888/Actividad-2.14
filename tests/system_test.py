@@ -10,9 +10,9 @@ def test_flujo_completo():
     sistema.agregar_taller(taller1)
     sistema.agregar_taller(taller2)
     
-    p1 = Participante("Ana", 20, "ana@mail.com")
-    p2 = Participante("Luis", 17, "luis@mail.com")  # menor de edad
-    p3 = Participante("Marta", 25, "marta@mail.com")
+    p1 = Participante("Ana", 20, "ana10@mail.com")
+    p2 = Participante("Luis", 17, "luis8@mail.com")  # menor de edad
+    p3 = Participante("Marta", 25, "marta20@mail.com")
     
     # Inscribir participantes en varios talleres
     assert sistema.registrar_participante_en_taller(p1, taller1) is True

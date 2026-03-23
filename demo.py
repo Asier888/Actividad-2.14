@@ -4,9 +4,9 @@ def main():
     print("=== DEMO DEL SISTEMA DE RESERVAS DE TALLERES DE MODA ===\n")
 
     # Crear participantes
-    p1 = Participante("Ana", 20, "ana@mail.com")
-    p2 = Participante("Luis", 16, "luis@mail.com")
-    p3 = Participante("Marta", 25, "marta@mail.com")
+    p1 = Participante("Ana", 20, "ana10@mail.com")
+    p2 = Participante("Luis", 16, "luis8@mail.com")
+    p3 = Participante("Marta", 25, "marta20@mail.com")
 
     print(f"Participantes creados: {p1.nombre}, {p2.nombre}, {p3.nombre}\n")
 
